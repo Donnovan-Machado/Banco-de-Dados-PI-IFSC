@@ -10,3 +10,4 @@ Um sistema de venda local de roupas moda street. O software visa auxiliar no con
 
 # Imagem
 
+![bd](https://github.com/Donnovan-Machado/Banco-de-Dados-PI-IFSC/assets/90418809/264f35cf-d7f2-49c2-bf8d-e8abc28c76af)
