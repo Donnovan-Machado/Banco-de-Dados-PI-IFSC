@@ -10,4 +10,4 @@ Um sistema de venda local de roupas moda street. O software visa auxiliar no con
 
 # Imagem
 
-![bd](https://github.com/Donnovan-Machado/Banco-de-Dados-PI-IFSC/assets/90418809/264f35cf-d7f2-49c2-bf8d-e8abc28c76af)
+![img_StreetDragon](https://github.com/Donnovan-Machado/Banco-de-Dados-PI-IFSC/assets/90418809/29ab58b8-da04-4208-b3f1-62e174519527)
