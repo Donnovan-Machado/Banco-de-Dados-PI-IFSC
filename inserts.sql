@@ -1,3 +1,2 @@
-/* Inserts das tabelas
-nao esqueçam de commitar
-*/
+INSERT into Clientes(nome, email) values (?,?)
+INSERT into Endereco(CEP, rua, bairro, complemento) values (?, ?, ?, ?)
