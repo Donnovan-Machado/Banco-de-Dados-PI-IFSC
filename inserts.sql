@@ -11,9 +11,9 @@ Insert into Carrinho (idCarrinho, Vendas_idVendas, Produtos_idProdutos, qntVendi
 -- Dados para pre-cadastramento
 
 //--Clientes--\\
-INSERT into Clientes(nome, email, cpf) values (Jonas,Jonas@gmail.com, 120000);
-INSERT into Clientes(nome, email, cpf) values (Donnavan,Donnavan@gmail.com, 1235670);
-INSERT into Clientes(nome, email, cpf) values (Dudu,DuduGames@outlook.com, 69696969);
+INSERT into Clientes(nome, email, cpf) values ('Jonas','Jonas@gmail'.com, 120000);
+INSERT into Clientes(nome, email, cpf) values '(Donnavan','Donnavan@gmail.com', 1235670);
+INSERT into Clientes(nome, email, cpf) values ('Dudu,DuduGames@outlook.com', 69696969);
 
 //--Endereços--\\
 insert into Edereco (CEP, rua, bairro) values ('38161', 'Osorio', 'Logan Plaza');
@@ -21,9 +21,9 @@ insert into Edereco (CEP, rua, bairro) values ('5249', 'Vintage', 'Weeping Birch
 insert into Edereco (CEP, rua, bairro) values ('612 32', 'Carvalho', 'Beilfuss Trail');
 
 //--Funcionarios--\\
-insert into Funcionarios (cpf, senha, nome) values (34-211-1572, 'hY5={.)I', 'Conny Fullstone');
-insert into Funcionarios (cpf, senha, nome) values (39-804-0252, 'qH0=M,E1>2LTshx', 'Derrick Devey');
-insert into Funcionarios (cpf, senha, nome) values (00-785-1618, 'pF7!XsKj*pna', 'Melba Rooson');
+insert into Funcionarios (cpf, senha, nome) values (342111572, 'hY5={.)I', 'Conny Fullstone');
+insert into Funcionarios (cpf, senha, nome) values (398040252, 'qH0=M,E1>2LTshx', 'Derrick Devey');
+insert into Funcionarios (cpf, senha, nome) values (007851618, 'pF7!XsKj*pna', 'Melba Rooson');
 
 
 //--Promocoes--\\
@@ -37,9 +37,9 @@ insert into Produtos (Fornecedores_idFornecedores, material, valor, categoria, e
 insert into Produtos (Fornecedores_idFornecedores, material, valor, categoria, estoque, tamanho) values (3, 'la', 500, 'moletom', 80, 'P' );
 
 //--Vendas--\\
-Insert into Vendas (idVendas, Funcionarios_cpf, Clientes_Cpf ) values (1, 1234812, 41245);
-Insert into Vendas (idVendas, Funcionarios_cpf, Clientes_Cpf ) values (2, 124612, 124124);
-Insert into Vendas (idVendas, Funcionarios_cpf, Clientes_Cpf ) values (3, 234623, 124124);
+Insert into Vendas (idVendas, Funcionarios_cpf, Clientes_Cpf ) values (1, 342111572, 120000);
+Insert into Vendas (idVendas, Funcionarios_cpf, Clientes_Cpf ) values (2, 398040252, 1235670);
+Insert into Vendas (idVendas, Funcionarios_cpf, Clientes_Cpf ) values (3, 007851618, 69696969);
 
 //--Carrinho--\\
 Insert into Carrinho (idCarrinho, Vendas_idVendas, Produtos_idProdutos, qntVendidos) value (1, 1, 1, 1 );
